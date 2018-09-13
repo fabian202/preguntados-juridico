@@ -1,0 +1,7 @@
+{
+  "name": "preguntados-juridico",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
