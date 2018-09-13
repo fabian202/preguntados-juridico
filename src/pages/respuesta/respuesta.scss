@@ -1,0 +1,35 @@
+page-respuesta {
+    .home {
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        background: #fff;
+    }
+
+    .correct {
+        color: color($colors, secondary);
+    }
+
+    .incorrect {
+        color: color($colors, danger);
+    }
+
+    .correct-head {
+        text-align: center;
+        color: color($colors, secondary);
+    }
+
+    .incorrect-head {
+        text-align: center;
+        color: color($colors, danger);
+        // color: white;
+        // border-radius: 10px;
+    }
+
+    ion-avatar {
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
