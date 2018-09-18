@@ -3,11 +3,13 @@ page-respuesta {
         text-align: center;
         justify-content: center;
         align-items:center;
-        background: #fff;
+        //background: #fff;
     }
 
     .correct {
         color: color($colors, secondary);
+        font-weight: bold;
+        font-size: 2rem !important;
     }
 
     .incorrect {
@@ -24,6 +26,12 @@ page-respuesta {
         color: color($colors, danger);
         // color: white;
         // border-radius: 10px;
+    }
+
+    p {
+        font-size: 1.7rem !important;
+        padding: 0px 16px;
+        text-align: center;
     }
 
     ion-avatar {

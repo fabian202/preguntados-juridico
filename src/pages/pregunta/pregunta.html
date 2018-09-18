@@ -1,6 +1,6 @@
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>Pregunta {{ix + 1}}</ion-title>
   </ion-navbar>
 
@@ -17,25 +17,25 @@
           
                 </ion-col>
               </ion-row>
-              <ion-row *ngFor="let a of question.respuestas; let i = index">
+              <ion-row *ngFor="let a of question.respuestas; let i = index" class="answer">
                 <ion-col>
                     <button ion-button color="light" block round (click)="respuesta(i)">{{a}}</button>
                 </ion-col>
               </ion-row>
               <ion-row>
                   <ion-col>
-                    <button ion-button icon-start  small color="danger" (click)="resign()">
+                    <button ion-button icon-start   color="danger" (click)="resign()">
                       <ion-icon name="thumbs-down"></ion-icon>
                       <div>Me rindo</div>
                     </button>
                   </ion-col>
-                  <ion-col center text-center>
+                  <!-- <ion-col center text-center>
                     <ion-note>
                       30
                     </ion-note>
-                  </ion-col>
-                  <ion-col>
-                    <button ion-button icon-start  small>
+                  </ion-col> -->
+                  <ion-col style="text-align: right">
+                    <button ion-button icon-start   (click)="next()" [disabled]="ix >= 9">
                         <ion-icon name="skip-forward"></ion-icon>
                       <div>Siguiente</div>
                     </button>

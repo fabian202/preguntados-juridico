@@ -27,12 +27,22 @@ export class PreguntaPage {
         this.question = q.preguntas[ix];
         console.log(this.question);
       });
-    })
+    });
   }
 
   respuesta(res) {
     console.log('respond', res);
     this.navCtrl.setRoot('respuesta-page', { question: this.question, answer: res, ix: this.ix });
+  }
+
+  next() {
+    this.storage.get('ix').then(ix => {
+      this.ix = ix + 1;
+      this.storage.get('q').then(q => {
+        this.question = q.preguntas[this.ix];
+        this.storage.set('ix', this.ix);
+      });
+    });
   }
 
   resign() {
