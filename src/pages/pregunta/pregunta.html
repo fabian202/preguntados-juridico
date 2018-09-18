@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Pregunta 1</ion-title>
+    <ion-title>Pregunta {{ix + 1}}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -10,53 +10,37 @@
 <ion-content>
   <ion-card>
     <ion-card-content>
-        <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+        <p>{{question.pregunta}}</p>
           <ion-grid>
               <ion-row>
                 <ion-col>
           
                 </ion-col>
               </ion-row>
-              <ion-row>
+              <ion-row *ngFor="let a of question.respuestas; let i = index">
                 <ion-col>
-                    <button ion-button color="light" block round (click)="respuesta()">Respuesta 1</button>
+                    <button ion-button color="light" block round (click)="respuesta(i)">{{a}}</button>
                 </ion-col>
               </ion-row>
               <ion-row>
                   <ion-col>
-                      <button ion-button color="light" block round>Respuesta 2</button>
+                    <button ion-button icon-start  small color="danger">
+                      <ion-icon name="thumbs-down"></ion-icon>
+                      <div>Me rindo</div>
+                    </button>
+                  </ion-col>
+                  <ion-col center text-center>
+                    <ion-note>
+                      30
+                    </ion-note>
+                  </ion-col>
+                  <ion-col>
+                    <button ion-button icon-start  small>
+                        <ion-icon name="skip-forward"></ion-icon>
+                      <div>Siguiente</div>
+                    </button>
                   </ion-col>
                 </ion-row>
-                <ion-row>
-                    <ion-col>
-                        <button ion-button color="light" block round>Respuesta 3</button>
-                    </ion-col>
-                  </ion-row>
-                  <ion-row>
-                      <ion-col>
-                          <button ion-button color="light" block round>Respuesta 4</button>
-                      </ion-col>
-                    </ion-row>
-
-                    <ion-row>
-                        <ion-col>
-                          <button ion-button icon-start  small color="danger">
-                            <ion-icon name="thumbs-down"></ion-icon>
-                            <div>Me rindo</div>
-                          </button>
-                        </ion-col>
-                        <ion-col center text-center>
-                          <ion-note>
-                            30
-                          </ion-note>
-                        </ion-col>
-                        <ion-col>
-                          <button ion-button icon-start  small>
-                              <ion-icon name="skip-forward"></ion-icon>
-                            <div>Siguiente</div>
-                          </button>
-                        </ion-col>
-                      </ion-row>
             </ion-grid>
       </ion-card-content>
   </ion-card>

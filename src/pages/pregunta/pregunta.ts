@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the PreguntaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { Storage } from '@ionic/storage';
 
 @IonicPage({
   name: 'page-pregunta'
@@ -16,15 +10,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'pregunta.html',
 })
 export class PreguntaPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  question: any = {};
+  ix: number = 0;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PreguntaPage');
+    this.storage.get('ix').then(ix => {
+      console.log(ix);
+      this.ix = ix;
+      this.storage.get('q').then(q => {
+        console.log(q);
+        
+        this.question = q.preguntas[ix];
+        console.log(this.question);
+      });
+    })
   }
 
-  respuesta() {
-    this.navCtrl.setRoot('respuesta-page');
+  respuesta(res) {
+    console.log('respond', res);
+    this.navCtrl.setRoot('respuesta-page', { question: this.question, answer: res, ix: this.ix });
   }
 }

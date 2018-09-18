@@ -1,0 +1,32 @@
+{
+    "preguntas": [
+        {
+            "pregunta": "Es un requisito indispensable de la prestación",
+            "respuestas": [
+                "Debe ser sometida a una condición",
+                "Debe ser posible",
+                "Debe estar fuera del comercio",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "Son aquellas oblicaciones que tienen por objeto la transmisión de la propiedad o de otro derecho real:",
+            "respuestas": [
+                "Obligaciones de dar",
+                "Obligaciones de hacer",
+                "Obligaciones de no hacer",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "Juan vende a Pedro un inmueble, que un año después incrementa su valor tres veces. Tal compraventa por este motivo",
+            "respuestas": [
+                "Es irrescindible por lesión enorme",
+                "Puede dar lugar a enriquecimiento sin justa causa",
+                "Puede rescindirse, por lesión enorme",
+                "está viciada, por nulidad relativa"
+            ],
+            "respuesta": 0
+        }
+    ]
+}
