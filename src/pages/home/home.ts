@@ -20,7 +20,12 @@ export class HomePage {
 
   start(){
     this.preguntasProvider.get().subscribe(res => {
-      this.storage.set('q', res).then(() => {
+      const shuffled = res.preguntas.sort(() => .5 - Math.random());// shuffle  
+      let selected =shuffled.slice(0,10) ;
+      console.log(shuffled);
+      console.log(selected);
+      
+      this.storage.set('q', selected).then(() => {
         this.navCtrl.setRoot('page-pregunta');
       });
       // console.log(res);

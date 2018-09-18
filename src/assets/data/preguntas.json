@@ -37,16 +37,7 @@
             ],
             "respuesta": 2
         }, {
-            "pregunta": "La teoría de la prevención general negativa indica:",
-            "respuestas": [
-                "La consolidación del sistema de normas de derecho penal",
-                "La coercibilidad del sistema de normas de derecho penal",
-                "La aplicación de las normas jurídicas ante la violación de las mismas",
-                "Ninguna de las anteriores"
-            ],
-            "respuesta": 1
-        }, {
-            "pregunta": "son características de los principios de derecho penal, excepto:",
+            "pregunta": "Son características de los principios de derecho penal, excepto:",
             "respuestas": [
                 "Integran el orden jurídico",
                 "Dirigen al operador judicial",
@@ -189,6 +180,105 @@
                 "Ninguna de las anteriores"
             ],
             "respuesta": 3
+        }, {
+            "pregunta": "¿Cuáles son los fines de la pena?",
+            "respuestas": [
+                "Prevención general y especial",
+                "Retribución justa",
+                "Reinserción social",
+                "Todas las anteriores"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "¿Cuál de los siguientes es un recurso extraordinario?",
+            "respuestas": [
+                "Casación",
+                "Reposición",
+                "Apelación",
+                "Queja"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "¿Qué se necesita para que sea una entidad descentralizada?",
+            "respuestas": [
+                "Patrimonio propio",
+                "Autonomía en sus decisiones",
+                "Personería jurídica",
+                "Todas las anteriores"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "¿Cuáles son los tipos de silencio frente a los actos administrativos?",
+            "respuestas": [
+                "Silencio positivo y negativo",
+                "Silencio negativo y recurrente",
+                "Silencio positivo y recurrente",
+                "Únicamente silencio recurrente"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "Según las etapas o camino del iter criminis, podemos decir que la ejecución, es una etapa:",
+            "respuestas": [
+                "Física",
+                "Psicofísica",
+                "Psicológica",
+                "Psiquiátrica"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "¿Cuál o cuáles son elementos del Estado?",
+            "respuestas": [
+                "Gobierno y población.",
+                "Poder y riqueza",
+                "Territorio, población y poder.",
+                "Todas las anteriores"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "Colombia es un Estado",
+            "respuestas": [
+                "Estado Social de Derecho",
+                "Estado de Derecho",
+                "Estado Liberal",
+                "Ninguna de las anteriores."
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "¿Cuáles son los vicios del consentimiento?",
+            "respuestas": [
+                "Culpa, dolo consciente y fuerza",
+                "Culpa lata, dolor y fuerza",
+                "Error, fuerza y dolo",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "Es la extinción de las obligaciones por el mutuo consentimiento de las partes",
+            "respuestas": [
+                "Conciliación",
+                "Resiliación",
+                "Resolución",
+                "Rescisión"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "¿A cuál de estos juristas italianos se le atribuye la Teoría del criminal nato?",
+            "respuestas": [
+                "Enrico Ferri",
+                "Piero Calamandrei",
+                "Cesare Lombroso",
+                "Luigi Ferrajoli"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "Se dice que un sistema donde gobiernan los más ricos y adinerados es una:",
+            "respuestas": [
+                "Aristocracia",
+                "Plutocracia",
+                "Burocracia",
+                "Autocracia"
+            ],
+            "respuesta": 1
         }
     ]
 }

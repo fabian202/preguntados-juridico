@@ -1,4 +1,7 @@
 <ion-content padding>
+    <ion-avatar>
+        <img src="../../assets/imgs/juridico2.png" />
+    </ion-avatar>
     <h2 class="correct-head" *ngIf="question.respuesta == answer">
         Correcto
     </h2>
@@ -6,10 +9,6 @@
     <h2 class="incorrect-head" *ngIf="!(question.respuesta == answer)">
         Incorrecto
     </h2>
-
-    <ion-avatar>
-        <img src="../../assets/imgs/juridico2.png" />
-    </ion-avatar>
 
       <ion-card>
         <ion-card-content>

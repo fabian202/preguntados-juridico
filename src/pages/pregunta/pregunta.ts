@@ -24,7 +24,7 @@ export class PreguntaPage {
       this.storage.get('q').then(q => {
         console.log(q);
         
-        this.question = q.preguntas[ix];
+        this.question = q[ix];
         console.log(this.question);
       });
     });
@@ -39,7 +39,7 @@ export class PreguntaPage {
     this.storage.get('ix').then(ix => {
       this.ix = ix + 1;
       this.storage.get('q').then(q => {
-        this.question = q.preguntas[this.ix];
+        this.question = q[this.ix];
         this.storage.set('ix', this.ix);
       });
     });
