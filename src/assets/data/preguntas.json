@@ -1,32 +1,194 @@
 {
     "preguntas": [
         {
-            "pregunta": "Es un requisito indispensable de la prestación",
+            "pregunta": "UN ACTO ADMINISTRATIVO ES UNA DECLARACIÓN DE VOLUNTAD DE CARÁCTER:",
             "respuestas": [
-                "Debe ser sometida a una condición",
-                "Debe ser posible",
-                "Debe estar fuera del comercio",
+                "Unilateral",
+                "Bilateral",
+                "Multilateral",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "LA JURISDICCION ES:",
+            "respuestas": [
+                "Una e indivisible",
+                "Intransferible",
+                "Inviolable",
+                "Insustituible"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "La imparcialidad del juez es:",
+            "respuestas": [
+                "Un atributo del juez",
+                "Una garantía del justiciable",
+                "La ley del proceso",
+                "1 y 2 son correctas"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "Es una característica del estado absolutista, excepto:",
+            "respuestas": [
+                "El poder era ejercido por Dios",
+                "El poder era ejercido por el monarca",
+                "La ley estaba por debajo del monarca",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "La teoría de la prevención general negativa indica:",
+            "respuestas": [
+                "La consolidación del sistema de normas de derecho penal",
+                "La coercibilidad del sistema de normas de derecho penal",
+                "La aplicación de las normas jurídicas ante la violación de las mismas",
                 "Ninguna de las anteriores"
             ],
             "respuesta": 1
         }, {
-            "pregunta": "Son aquellas oblicaciones que tienen por objeto la transmisión de la propiedad o de otro derecho real:",
+            "pregunta": "son características de los principios de derecho penal, excepto:",
             "respuestas": [
-                "Obligaciones de dar",
-                "Obligaciones de hacer",
-                "Obligaciones de no hacer",
-                "Ninguna de las anteriores"
+                "Integran el orden jurídico",
+                "Dirigen al operador judicial",
+                "Dirigen el comportamiento humano",
+                "No se predica de ellos la subsunción"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "Cuando se dice que de los principios se proclama su universalidad, esto es debido a:",
+            "respuestas": [
+                "La dogmática penal",
+                "La política criminal",
+                "La filosofía del derecho",
+                "La criminología."
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "Un partido político en el que sus ideales traspasen las fronteras nacionales, se denomina:",
+            "respuestas": [
+                "Nacionalista",
+                "Internacionalista",
+                "Socialista",
+                "Comunista"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "Titularidad y procedimiento son elementos de :",
+            "respuestas": [
+                "La legitimación del poder constituyente",
+                "Los estados democráticos",
+                "El voto",
+                "Los mecanismos de participación ciudadana"
             ],
             "respuesta": 0
         }, {
-            "pregunta": "Juan vende a Pedro un inmueble, que un año después incrementa su valor tres veces. Tal compraventa por este motivo",
+            "pregunta": "La decisión tomada por un defensor o comisario en una audiencia de fallo en un PARD lo hace mediante:",
             "respuestas": [
-                "Es irrescindible por lesión enorme",
-                "Puede dar lugar a enriquecimiento sin justa causa",
-                "Puede rescindirse, por lesión enorme",
-                "está viciada, por nulidad relativa"
+                "Decretos",
+                "Sentencia judicial",
+                "Resoluciones judiciales",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "Expresa que toda convención debe ser fielmente cumplida por las partes de acuerdo con lo pactado.",
+            "respuestas": [
+                "Contra legem",
+                "A priori",
+                "Pacta sunt servanda",
+                "Donatio inter vivos"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "Rama jurídica que engloba leyes nacionales e internacionales que controlan las actividades humanas en el espacio exterior.",
+            "respuestas": [
+                "Derecho civil",
+                "Derecho aduanero",
+                "Derecho penal",
+                "Derecho espacial"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "Posibles modalidades de la conducta en el Homicidio.",
+            "respuestas": [
+                "Dolosa",
+                "Culposa",
+                "Preterintencional",
+                "Todas las anteriores"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "Protege las creaciones desarrolladas a través del intelecto humano tales como los inventos.",
+            "respuestas": [
+                "Derecho a la propiedad intelectual",
+                "Derecho civil bienes",
+                "Derecho romano",
+                "Todas las anteriores"
             ],
             "respuesta": 0
+        }, {
+            "pregunta": "Contrato accesorio que grava un bien inmueble como garantía de cumplimiento a un contrato principal.",
+            "respuestas": [
+                "Comodato",
+                "Hipoteca",
+                "Prenda",
+                "Tradición"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "Acuerdo entre la santa sede y un estado para regular sus relaciones.",
+            "respuestas": [
+                "Concordato",
+                "Resolución",
+                "Decreto",
+                "Cláusula"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "Rama jurídica que regula la administración de los métodos, técnicas y procesos que tienen el fin de almacenar, procesar, transmitir información y datos en forma digital.",
+            "respuestas": [
+                "Derecho aeronáutico",
+                "Derecho del consumidor",
+                "Derecho informático",
+                "Derecho ambiental"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "En Colombia, la edad a la que una persona con un normal discernimiento adquiere libertad sexual es:",
+            "respuestas": [
+                "14 años",
+                "16 años",
+                "18 años",
+                "21 años"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "Quiénes pueden impugnar la paternidad",
+            "respuestas": [
+                "El hijo",
+                "La madre",
+                "El padre",
+                "Todas las anteriores"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "¿Los menores adultos son inimputables?",
+            "respuestas": [
+                "Si porque no tienen capacidad",
+                "No porque tienen un sistema penal diferente",
+                "En ocasiones",
+                "Dependiendo de la edad"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "¿Qué bienes se pueden enajenar?",
+            "respuestas": [
+                "Bienes muebles",
+                "Bienes inmuebles",
+                "Los semovientes",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": 3
         }
     ]
 }

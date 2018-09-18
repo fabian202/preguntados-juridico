@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
+import { AlertController } from 'ionic-angular';
 
 @IonicPage({
   name: 'page-pregunta'
@@ -12,7 +13,7 @@ import { Storage } from '@ionic/storage';
 export class PreguntaPage {
   question: any = {};
   ix: number = 0;
-  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage, private alertCtrl: AlertController) {
   }
 
   ionViewDidLoad() {
@@ -32,5 +33,28 @@ export class PreguntaPage {
   respuesta(res) {
     console.log('respond', res);
     this.navCtrl.setRoot('respuesta-page', { question: this.question, answer: res, ix: this.ix });
+  }
+
+  resign() {
+    let alert = this.alertCtrl.create({
+      title: 'Rendirse',
+      message: '¿Está seguro que no desde continuar?',
+      buttons: [
+        {
+          text: 'Cancelar',
+          role: 'cancel',
+          handler: () => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Aceptar',
+          handler: () => {
+            this.navCtrl.setRoot('page-home');
+          }
+        }
+      ]
+    });
+    alert.present();
   }
 }
