@@ -20,7 +20,7 @@ export class HomePage {
 
   start(){
     this.preguntasProvider.get().subscribe(res => {
-      const shuffled = res.preguntas.sort(() => .5 - Math.random());// shuffle  
+      const shuffled = res['preguntas'].sort(() => .5 - Math.random());// shuffle  
       let selected =shuffled.slice(0,10) ;
       console.log(shuffled);
       console.log(selected);

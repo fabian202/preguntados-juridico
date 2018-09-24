@@ -30,9 +30,9 @@ export class RespuestaPage {
 
   continue() {
     //check answer
-    this.storage.get('correct').then(val => {
+    this.storage.get('correct').then(async val => {
       if(this.question.respuesta == this.answer) {
-        this.storage.set('correct', val + 1);
+        await this.storage.set('correct', val + 1);
       }
 
       //Check if is the end 
