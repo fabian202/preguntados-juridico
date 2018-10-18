@@ -279,6 +279,96 @@
                 "Autocracia"
             ],
             "respuesta": 1
+        }, {
+            "pregunta": "La exclusividad es excepción de:",
+            "respuestas": [
+                "Concurrencia",
+                "Coexistencia",
+                "Salario variable",
+                "Remuneración"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "Es aquel salario que recibe el trabajador cuyos elementos que lo componen no tienen modificación alguna en el periodo que se remunera",
+            "respuestas": [
+                "Salario Variable.",
+                "Salario Ordinario.",
+                "Salario Extraordinario.",
+                "Salario Fijo."
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "¿Cuál es la jornada máxima legal?",
+            "respuestas": [
+                "8h diarias- 48h Semanales",
+                "6h diarias – 36h Semanales",
+                "4 h diarias– 24h Semanales",
+                "9h diarias– 36 h Semanales"
+            ],
+            "respuesta": 0
+        }, {
+            "pregunta": "¿Cuánto es el auxilio de transporte del 2018?",
+            "respuestas": [
+                "75.000",
+                "88. 211",
+                "90.000",
+                "60.000"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "¿Cuál es el elemento común o de validez?",
+            "respuestas": [
+                "Consentimiento",
+                "Objeto y Causa lícita",
+                "Capacidad",
+                "Remuneración"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "Son causales de suspensión del contrato de trabajo, excepto:",
+            "respuestas": [
+                "Las licencias no remuneradas",
+                "La licencia remunerada",
+                "El cierre de la empresa por razones técnicas",
+                "Un naufragio"
+            ],
+            "respuesta": 1
+        }, {
+            "pregunta": "¿Cuál es el número máximo de socios que la legislación colombiana permite tener a una Sociedad de Responsabilidad Limitada - LTDA?",
+            "respuestas": [
+                "10",
+                "No hay límite",
+                "30",
+                "25"
+            ],
+            "respuesta": 3
+        }, {
+            "pregunta": "¿Cuál es el número mínimo de accionistas que puede tener una Sociedad Comandita por Acciones?",
+            "respuestas": [
+                "1",
+                "2",
+                "5",
+                "10"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "¿Cuánto es lo máximo que dura un contrato accidental?",
+            "respuestas": [
+                "Tres meses",
+                "Seis meses",
+                "Un mes",
+                "Un año"
+            ],
+            "respuesta": 2
+        }, {
+            "pregunta": "¿Cuáles de las siguientes son prestaciones sociales?",
+            "respuestas": [
+                "Vacaciones",
+                "Indemnización por despido sin justa causa",
+                "El pacto colectivo",
+                "El auxilio de cesantías"
+            ],
+            "respuesta": 3
         }
     ]
 }

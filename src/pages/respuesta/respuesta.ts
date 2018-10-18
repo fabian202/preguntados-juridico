@@ -36,7 +36,7 @@ export class RespuestaPage {
       }
 
       //Check if is the end 
-      if(this.ix < 9) {
+      if(this.ix < 4) {
         this.storage.set('ix', this.ix + 1).then(() => {
           this.navCtrl.setRoot('page-pregunta');
         });
